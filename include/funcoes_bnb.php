@@ -75,7 +75,7 @@ function digitoVerificador_nossonumero($numero) {
 	$resto2 = modulo_11($numero, 7, 1);
      $digito = 11 - $resto2;
      if ($digito == 10) {
-        $dv = "P";
+        $dv = 0;
      } elseif($digito == 11) {
      	$dv = 0;
 	} else {
